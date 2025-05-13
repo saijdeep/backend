@@ -180,6 +180,12 @@ app.use("/user", userRouter);
 app.use("/posts", postRouter);
 app.use("/chat", chatRouter);
 
+// Add a route handler for the root path ('/')
+app.get('/', (req, res) => {
+  res.send('Welcome to the Student Hub Backend!'); // Or any other message/response you want
+});
+
+
 // Add test users route
 app.post('/auth/add-test-users', async (req, res) => {
     try {
