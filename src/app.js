@@ -30,8 +30,8 @@ const io = new Server(httpServer, {
             "http://127.0.0.1:5175",
             "http://127.0.0.1:5176",
             "http://127.0.0.1:5177",
-            "https://studenthub-4.onrender.com/",  
-            "https://studenthub-5.onrender.com/"
+            "https://studenthub-4.onrender.com",  
+            "https://studenthub-5.onrender.com"
         ],
         credentials: true
     }
@@ -153,8 +153,8 @@ const allowedOrigins = [
     "http://127.0.0.1:5175",
     "http://127.0.0.1:5176",
     "http://127.0.0.1:5177",
-    "https://studenthub-4.onrender.com/",  
-    "https://studenthub-5.onrender.com/"
+    "https://studenthub-4.onrender.com",  
+    "https://studenthub-5.onrender.com"
 ];
 
 app.use(cors({
